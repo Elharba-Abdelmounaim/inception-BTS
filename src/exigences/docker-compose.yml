@@ -21,10 +21,13 @@ services:
     restart: always
     volumes:
       - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl
     ports:
       - "80:80"
+      - "443:443"
     depends_on:
-      - mariadb
+      - mariadb:
+        condition: service_healthy
     networks:
       - my_network
 
@@ -33,4 +36,5 @@ volumes:
 
 networks:
   my_network:
+    driver: bridge
 

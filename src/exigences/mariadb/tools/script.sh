@@ -9,9 +9,9 @@ if [ -f .env ]; then
 	set +a
 fi
 
-mkdir -p /var/run/mysqld /var/log/mysql
-chown -R mysql:mysql /var/log/mysql /var/run/mysqld || true
-chmod -R 777 /var/log/mysql /var/run/mysqld
+sudo mkdir -p /var/run/mysqld /var/log/mysql
+sudo chown -R mysql:mysql /var/log/mysql /var/run/mysqld || true
+sudo chmod -R 777 /var/log/mysql /var/run/mysqld
 
 
 echo "starting MariaDB ... "
