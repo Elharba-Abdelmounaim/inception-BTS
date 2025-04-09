@@ -16,13 +16,13 @@ Here’s the flow we will follow during this presentation:
 1. **What problem does Docker solve?**
 2. **What is Docker?**
 3. **Docker vs Virtual Machines**
-4. **Why Developers Love Docker**
-5. **Core Concepts** (Image, Container, Dockerfile, etc.)
-6. **Setup a Node.js App**
-7. **Writing a Dockerfile + Optimization Tips**
-8. **Docker Hot Reload**
-9. **Docker Volumes**
-10. **Docker in Action**: Basic commands
+
+4. **Core Concepts** (Image, Container, Dockerfile, etc.)
+5. **Setup a Node.js App**
+6. **Writing a Dockerfile + Optimization Tips**
+7. **Docker Hot Reload**
+8. **Docker Volumes**
+9. **Docker in Action**: Basic commands
 
 ---
 
