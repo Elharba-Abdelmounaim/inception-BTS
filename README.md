@@ -26,20 +26,7 @@ Here’s the flow we will follow during this presentation:
 
 ---
 
-## 🧠 What is `dockerd` and why is it important?
 
-- `dockerd` stands for **Docker Daemon**.
-- It is the **background service** that manages:
-  - Containers
-  - Images
-  - Networks
-  - Volumes
-- It listens to Docker CLI commands (like `docker run`) and executes them.
-- Think of it as the **brain** of Docker that does the heavy lifting.
-
-> Without `dockerd`, Docker wouldn’t work. It’s like the engine of a car.
-
----
 
 ## 🔧 What problem does Docker solve?
 
