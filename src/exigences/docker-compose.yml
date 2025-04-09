@@ -1,7 +1,6 @@
 services:
   mariadb:
-    build:    
-      context: ./mariadb
+    image: mariadb:latest
     container_name: my_database
     restart: always
     env_file:
@@ -31,5 +30,4 @@ volumes:
 
 networks:
   my_network:
-    driver: bridge
-
+    driver: bridge  
