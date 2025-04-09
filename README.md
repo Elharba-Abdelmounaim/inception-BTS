@@ -12,17 +12,17 @@ No prior experience needed!
 
 Here’s the flow we will follow during this presentation:
 
-1. **What is `dockerd` and why is it important?**
-2. **What problem does Docker solve?**
-3. **What is Docker?**
-4. **Docker vs Virtual Machines**
-5. **Why Developers Love Docker**
-6. **Core Concepts** (Image, Container, Dockerfile, etc.)
-7. **Setup a Node.js App**
-8. **Writing a Dockerfile + Optimization Tips**
-9. **Docker Hot Reload**
-10. **Docker Volumes**
-11. **Docker in Action**: Basic commands
+
+1. **What problem does Docker solve?**
+2. **What is Docker?**
+3. **Docker vs Virtual Machines**
+4. **Why Developers Love Docker**
+5. **Core Concepts** (Image, Container, Dockerfile, etc.)
+6. **Setup a Node.js App**
+7. **Writing a Dockerfile + Optimization Tips**
+8. **Docker Hot Reload**
+9. **Docker Volumes**
+10. **Docker in Action**: Basic commands
 
 ---
 
