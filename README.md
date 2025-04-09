@@ -62,12 +62,7 @@ Docker is a platform that packages apps and everything they need (dependencies, 
 
 ---
 
-## ✅ Why Developers Use Docker
 
-- ⚡ Fast and consistent development
-- 📦 Easy to package and deploy
-- 🛠️ Works the same everywhere
-- 👥 Simplifies team collaboration
 
 ---
 
